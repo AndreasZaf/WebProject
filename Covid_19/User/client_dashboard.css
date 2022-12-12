@@ -1,0 +1,303 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+	
+	
+#map
+{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+    margin-left:47%;
+	font-size:28px;
+	padding: 0px 10px;
+}
+
+.main .smallsidebar
+{
+	background:#4682B4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 11%;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.main .sidebar{
+	
+    background:#4682B4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 47%;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+
+.main .sidebar  .information{
+	margin-bottom: 20%;
+    text-align: center;
+}
+
+.main .sidebar .information h3{
+	color:#ffffff;
+	margin: 10px 0 5px;
+	
+}
+
+.main .sidebar .information p{
+	
+	color:#FFFFFF;
+	font-size:10px;
+}
+
+.main .sidebar .DropDown #input1
+{
+	width:60%;
+	height:40%;
+	
+}
+
+.main .sidebar .DropDown #date1
+{
+	width:60%;
+	height:40%;
+}
+
+.main .sidebar .DropDown #button2,#button7
+{
+	width:19%;
+	height:3.4%;
+	position:fixed;
+	left:28%;
+	color:#021691;
+	
+}
+
+.main .sidebar .DropDown #button1,#button3,#button4,#button5,#button6
+{
+	width:100%;
+	height:50%;
+	font-size:15px;
+	color:#021691;
+	
+}
+
+#button9
+{
+	left:38%;
+	color:#021691;
+	position:fixed;
+	bottom:96%;
+}
+
+.main .smallsidebar #button10
+{
+	width:11%;
+	color:#021691;
+	position:fixed;
+	bottom:97%;
+	
+}
+	
+}
+
+
+@media only screen and (min-width: 601px) and (max-width:1999px) {
+	
+#map
+{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+    margin-left:30%;
+	font-size:28px;
+	padding: 0px 10px;
+}
+
+.main .sidebar{
+    background:#4682B4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.main .smallsidebar
+{
+	background:#4682B4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 9%;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+
+.main .sidebar  .information{
+	margin-bottom: 10%;
+    text-align: center;
+}
+
+.main .sidebar .information h3{
+	color:#ffffff;
+	margin: 10px 0 5px;
+	
+}
+
+.main .sidebar .information p{
+	
+	color:#FFFFFF;
+	font-size:15px;
+}
+
+.main .sidebar .DropDown #input1,#date1
+{
+	width:70%;
+	height:40%;
+
+}
+
+.main .sidebar .DropDown #button2,#button7
+{
+	width:9%;
+	height:1.2%;
+	position:fixed;
+	left:21%;
+	color:#021691;
+	
+}
+
+.main .sidebar .DropDown #button1,#button3,#button4,#button5,#button6
+{
+	width:100%;
+	height:50%;
+	font-size:15px;
+	color:#021691;
+	
+}
+
+#button9
+{
+	left:26%;
+	color:#021691;
+	position:fixed;
+	bottom:98%;
+}
+
+.main .smallsidebar #button10
+{
+	width:9%;
+	color:#021691;
+	position:fixed;
+	bottom:99%;
+	
+}
+	
+}
+
+
+@media only screen and ( min-width: 1200px) 
+{
+	
+#map
+{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+    margin-left:200px;
+	font-size:28px;
+	padding: 0px 10px;
+}
+
+.main .sidebar{
+    background:#4682B4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+
+.main .sidebar  .information{
+	margin-bottom: 30px;
+    text-align: center;
+}
+
+.main .sidebar .information h3{
+	color:#ffffff;
+	margin: 10px 0 5px;
+	
+}
+
+.main .sidebar .information p{
+	
+	color:#ffffff;
+	font-size:14px;
+}
+
+.main .sidebar .DropDown #button1,#button3,#button4,#button5,#button6
+{
+	clear:both;
+    width:100%;
+    height:0px;
+    text-align: center;
+}
+
+.main .sidebar .DropDown #input1,#date1
+{
+	width:133px;
+	height:40px;
+
+}
+
+.main .sidebar .DropDown #button2,#button7
+{
+	width:68px;
+	height:40px;
+	position:fixed;
+	left:130px;
+	color:#FFFFFF;
+	
+}
+
+.main .sidebar .DropDown #button1,#button3,#button4,#button5,#button6
+{
+	width:198px;
+	height:40px;
+	font-size:15px;
+	color:#FFFFFF;
+	
+}
+
+#button9
+{
+	visibility:hidden;
+}
+	
+}
